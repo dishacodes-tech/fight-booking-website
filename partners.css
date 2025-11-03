@@ -1,0 +1,139 @@
+/* ===== FEATURED PARTNERS SECTION ===== */
+#partners {
+  text-align: center;
+  margin: 60px auto;
+  padding: 20px 40px;
+  max-width: 1100px;
+}
+
+#partners h2 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 8px;
+}
+
+#partners p {
+  font-size: 0.95rem;
+  margin-bottom: 30px;
+}
+
+.partner-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.partner-logos img {
+  width: 100px;
+  height: 50px;
+  transition: all 0.3s ease;
+}
+
+.partner-logos img:hover {
+  transform: scale(1.1);
+}
+
+/* ===== SPECIAL OFFERS SECTION ===== */
+#offers {
+  text-align: center;
+  background: #f9fbff;
+  padding: 60px 30px;
+}
+
+#offers h2 {
+  font-size: 1.9rem;
+  color: #111;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.offer-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.offer-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.offer-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.offer-card:hover img {
+  transform: scale(1.1);
+}
+
+.offer-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 12px 15px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+  color: #fff;
+  text-align: left;
+}
+
+.offer-info h3 {
+  font-size: 1.1rem;
+  margin-bottom: 3px;
+}
+
+.offer-info p {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 992px) {
+  #partners {
+    padding: 20px;
+  }
+
+  .partner-logos img {
+    width: 80px;
+  }
+
+  .offer-grid {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  #partners h2,
+  #offers h2 {
+    font-size: 1.5rem;
+  }
+
+  .offer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .offer-info h3 {
+    font-size: 1rem;
+  }
+
+  .offer-info p {
+    font-size: 0.8rem;
+  }
+}

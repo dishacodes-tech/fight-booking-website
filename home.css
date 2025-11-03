@@ -1,0 +1,274 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #e9f3ff, #ffffff);
+  color: #1a1a1a;
+}
+
+/* ===== NAVBAR ===== */
+nav {
+  background: #0b2343;
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  font-size: 0.95rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease;
+  white-space: nowrap;
+}
+
+nav ul li:hover {
+  color: #00bfff;
+}
+
+.brand {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #00bfff;
+}
+
+.flag {
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 20px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  nav ul li {
+    font-size: 0.9rem;
+  }
+
+  .brand {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    gap: 15px;
+  }
+  nav ul li {
+    font-size: 0.85rem;
+  }
+  .flag {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+
+/* ===== CONTAINER ===== */
+#container {
+  max-width: 1200px;
+  margin: 60px auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px 40px;
+}
+
+/* ===== HEADER (Navigation under hero) ===== */
+header {
+  background: #f4f7fb;
+  border-radius: 12px;
+  padding: 12px 25px;
+  margin: 25px auto;
+  max-width: 1000px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap; /* allows 2 rows when space is tight */
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px 20px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #0b2343;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+header ul li:hover {
+  background: #00bfff;
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* ===== RESPONSIVE HEADER ===== */
+@media (max-width: 900px) {
+  header ul {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  header ul li {
+    font-size: 0.95rem;
+    padding: 10px 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  header ul {
+    gap: 15px;
+  }
+
+  header ul li {
+    flex: 1 1 40%;
+    text-align: center;
+    font-size: 0.85rem;
+    padding: 10px 12px;
+  }
+
+  header ul li i {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+/* ===== BOOKING FORM ===== */
+.booking-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 25px;
+  margin: 25px 0;
+}
+
+.details{
+  background-color:#f5f5f5;
+  padding: 5px;
+  border-radius:5px;
+}
+
+.details h4 {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.details .description h3 {
+  font-size: 1.05rem;
+  color: #111;
+}
+
+.details .description p {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+/* ===== FOOTER ===== */
+.booking-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.trip-type {
+  display: flex;
+  gap: 15px;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.trip-type input {
+  margin-right: 6px;
+  accent-color: #0077ff;
+}
+
+.search-btn {
+  background: #0077ff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-btn:hover {
+  background: #005ed6;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  nav {
+    padding: 12px 20px;
+  }
+
+  #container {
+    padding: 20px;
+  }
+
+  .booking-footer {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  header ul {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

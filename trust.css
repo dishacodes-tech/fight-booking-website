@@ -1,0 +1,98 @@
+/* ===== TRUST & FEEDBACK SECTION ===== */
+#trust {
+  background: linear-gradient(135deg, #e9f3ff, #f8fcff);
+  padding: 80px 30px;
+  text-align: center;
+}
+
+.trust-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.stats h2 {
+  font-size: 1.8rem;
+  color: #111;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.stats h2 span {
+  color: #007bff;
+  font-weight: 700;
+}
+
+.stats p {
+  color: #555;
+  font-size: 0.95rem;
+  margin-bottom: 50px;
+}
+
+.feedbacks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 10px;
+}
+
+.feedback-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feedback-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.feedback-card p {
+  color: #444;
+  font-size: 0.95rem;
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #007bff;
+}
+
+.user h4 {
+  font-size: 1rem;
+  color: #111;
+  margin: 0;
+}
+
+.user span {
+  display: block;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  #trust {
+    padding: 60px 20px;
+  }
+
+  .stats h2 {
+    font-size: 1.5rem;
+  }
+
+  .feedback-card {
+    padding: 20px;
+  }
+}
