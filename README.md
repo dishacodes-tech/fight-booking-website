@@ -50,6 +50,3 @@ Feel free to open issues or share ideas for improvements — this project is par
 This is a static front-end project — **no backend or JavaScript used.**  
 It focuses purely on HTML & CSS design, structure, and responsiveness.
 
----
-
-⭐ *If you like this project, don’t forget to star it on GitHub!*
