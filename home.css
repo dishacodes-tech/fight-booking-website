@@ -108,11 +108,9 @@ header {
 
 header ul {
   list-style: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap; /* allows 2 rows when space is tight */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
   margin: 0;
   padding: 0;
 }
@@ -158,7 +156,7 @@ header ul li:hover {
   }
 
   header ul li {
-    flex:  100%;  /*for the responsiveness*/
+    
     text-align: center;
     font-size: 0.85rem;
     padding: 10px 12px;
@@ -172,7 +170,7 @@ header ul li:hover {
 /* ===== BOOKING FORM ===== */
 .booking-form {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 25px;
   margin: 25px 0;
 }
