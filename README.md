@@ -1,6 +1,6 @@
 # ✈️ Flight Booking Website
 
-This is a professional flight booking landing page built using pure **HTML** and **CSS**.  
+This is a flight booking landing page built using pure **HTML** and **CSS**.  
 It’s designed to look like a real-world airline or travel startup website — inspired by platforms like IndiGo and AirIndia.  
 Built completely from scratch with a focus on **clean UI, responsive layout, and realistic booking flow**.
 
