@@ -28,7 +28,7 @@
 
 .partner-logos img {
   width: 100px;
-  height: auto;
+  height: 50px;
   transition: all 0.3s ease;
   padding: 5px;
 }

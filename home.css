@@ -94,6 +94,7 @@ nav ul li:hover {
   border-radius: 20px;
   box-shadow: 0 6px 20px rgba(42, 42, 42, 0.334);
   padding: 40px;
+  margin-top: 70px;
 }
 
 /* HEADER */
@@ -109,7 +110,7 @@ header {
 header ul {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
   margin: 0;
   padding: 0;
@@ -170,7 +171,7 @@ header ul li:hover {
 /* ===== BOOKING FORM ===== */
 .booking-form {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 25px;
   margin: 25px 0;
 }
