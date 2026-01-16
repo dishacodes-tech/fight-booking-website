@@ -132,6 +132,11 @@ header ul li {
   white-space: nowrap;
 }
 
+header ul .active {
+  background: #089fd1;
+  color: white;
+}
+
 header ul li:hover {
   background: #00bfff;
   color: white;
