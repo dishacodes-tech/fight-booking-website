@@ -27,23 +27,7 @@ Built completely from scratch with a focus on **clean UI, responsive layout, and
 * HTML5  
 * CSS3 (with modular files for each section)
 
----
 
-## 👩‍💻 Author
-
-**Disha**  
-
-GitHub: (https://github.com/dishacodes-tech)  
-LinkedIn: (https://www.linkedin.com/in/dishamahajan1/)
-
----
-
-## 💬 Feedback
-
-Suggestions and feedback are always welcome!  
-Feel free to open issues or share ideas for improvements — this project is part of my ongoing front-end learning journey.
-
----
 
 ## 📌 Note
 
