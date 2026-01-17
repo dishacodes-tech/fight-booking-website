@@ -27,10 +27,6 @@ Built completely from scratch with a focus on **clean UI, responsive layout, and
 * HTML5  
 * CSS3 (with modular files for each section)
 
-
-
-## 📌 Note
-
 This is a static front-end project — **no backend or JavaScript used.**  
 It focuses purely on HTML & CSS design, structure, and responsiveness.
 
