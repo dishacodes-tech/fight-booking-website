@@ -12,7 +12,7 @@ Built completely from scratch with a focus on **clean UI, responsive layout, and
 
 ---
 
-## ✨ Features
+##  Features
 
 * Fully responsive, mobile-first design  
 * Hero section with flight search layout  
@@ -22,7 +22,7 @@ Built completely from scratch with a focus on **clean UI, responsive layout, and
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 * HTML5  
 * CSS3 (with modular files for each section)
